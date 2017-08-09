@@ -7,8 +7,25 @@
   </head>
   <body>
   	<div class="container">
-  		<h1>An Unexpected Journey</h1>
-  	  <a class="btn" href="#">Get Started<br>good morning mr Adnen</a>
+  		 <h1>An Unexpected Journey</h1>
+  	    <!-- le code du modal-->
+  	     <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#monModal">Get Started</a>
+                <div class="modal fade" id="monModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Dear user</h4>
+                                <button type="button" class="close" data-dismiss="modal">x</button>
+                            </div>
+                            <div class="modal-body">
+                                <p> you are welcome !</p>
+                            </div>
+                            <div class="modal-footer has-success">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
   	</div>
   </body>
 </html>
